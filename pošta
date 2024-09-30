@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktní formulář</title>
+</head>
+<body>
+    <h2>Pošlete nám zprávu</h2>
+    <form id="contactForm" method="POST" action="https://formsubmit.co/oliverpirner@seznam.cz">
+        <label for="email">Váš e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Vaše zpráva:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Odeslat</button>
+    </form>
+</body>
+</html>
